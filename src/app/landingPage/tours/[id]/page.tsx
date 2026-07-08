@@ -4,9 +4,6 @@ type Props = {
   params: Promise<{ id: string }>;
 };
 
-export default function ToursPage({ params }: Props) {
-  return (
-    <ToursView params={params} />
-  );
+export default function TourDetailPage({ params }: Props) {
+  return <ToursView params={params} />;
 }
-    
