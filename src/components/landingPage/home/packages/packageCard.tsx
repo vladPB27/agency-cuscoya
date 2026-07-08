@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 
@@ -8,7 +8,7 @@ type Props = {
   id: number;
   title: string;
   description: string;
-  image: string;
+  image: string | StaticImageData;
   price: number;
 };
 
