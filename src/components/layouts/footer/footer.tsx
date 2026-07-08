@@ -19,8 +19,7 @@ export default function Footer() {
               Cusco<span className="text-white">Ya</span>
             </h3>
             <p className="mt-3 text-sm">
-              Discover unforgettable experiences at Mount Bromo with
-              trusted local guides and affordable packages.
+              Descubre experiencias inolvidables con guías locales confiables y paquetes asequibles.
             </p>
           </div>
 
@@ -55,8 +54,7 @@ export default function Footer() {
           <div>
             <h4 className="mb-4 font-semibold">Our Services</h4>
             <ul className="space-y-2 text-sm">
-              <li>Bromo Sunrise Tour</li>
-              <li>Bromo Panorama</li>
+              <li>Guided Tours</li>
               <li>Private Trip</li>
               <li>Custom Packages</li>
             </ul>
@@ -68,15 +66,15 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-blue-600" />
-                Malang, East Java, Indonesia
+                Cusco, Perú
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-blue-600" />
-                +62 812 3456 7890
+                +51 900 671 114
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-blue-600" />
-                info@mabromooo.com
+                cuscoya@gmail.com
               </li>
             </ul>
 

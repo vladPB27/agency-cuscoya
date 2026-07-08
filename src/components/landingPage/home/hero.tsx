@@ -26,7 +26,7 @@ export default function Hero() {
           Descubre experiencias auténticas en el corazón de los Andes
         </h2>
 
-        <div className="mt-10 w-full max-w-4xl">
+        <div className="mt-10 w-full max-w-3xl">
           <BookingBox />
         </div>
       </div>
