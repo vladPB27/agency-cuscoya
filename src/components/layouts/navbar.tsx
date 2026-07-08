@@ -14,7 +14,7 @@ const navLinks = [
   { name: "Inicio", href: "/" },
   { name: "Tours", href: "/landingPage/tours" },
   { name: "Acerca de", href: "/" },
-  { name: "Contacto", href: "/" },
+  { name: "Contacto", href: "/landingPage/contact" },
 ];
 
 export default function Navbar() {

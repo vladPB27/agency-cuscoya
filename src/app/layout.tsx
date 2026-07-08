@@ -4,6 +4,7 @@ import "./globals.css";
 // import { Navbar } from "@/components/layouts/navbar";
 import Footer from "@/components/layouts/footer/footer";
 import Navbar from "@/components/layouts/navbar";
+import { WhatsAppButton } from "@/components/landingPage/home/whatsapp/whatsappButton";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`} >
         <Navbar />
         {children}
+        <WhatsAppButton phone="51900671114" message="Hola, me gustaría obtener más información." />
         <Footer />
       </body>
     </html>
